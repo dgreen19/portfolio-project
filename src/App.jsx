@@ -17,7 +17,7 @@ export default function App() {
 					<LightDark></LightDark>
 				</div>
 			</NavBar>
-			<Header></Header>
+			<Header>TEST</Header>
 			<Skills></Skills>
 			<WorkHistory></WorkHistory>
 			<Projects></Projects>
