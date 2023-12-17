@@ -1,6 +1,6 @@
+
 import React from 'react'
 import "bootstrap/dist/css/bootstrap.min.css";
-
 export default function NavBar() {
   return (
 		<header>
@@ -25,7 +25,7 @@ export default function NavBar() {
 				</li>
 				<li>
 					<a href="#contact">Contact</a>
-				</li>
+			  </li>
 			</ul>
 		</header>
 	);
