@@ -26,19 +26,35 @@ export default function App() {
   };
 
   return (
-    <ThemeProvider theme={darkTheme}>
-      <CssBaseline />
+		<ThemeProvider theme={darkTheme}>
+			<CssBaseline />
+			//Adding the switch button
+			<div
+				style={{
+					display: "flex",
+					flexDirection: "row",
+					justifyContent: "flex-end",
+				}}
+			>
+				<Switch checked={darkMode} onChange={toggleSwitchFunction} />
+			</div>
+			<div
+				style={{
+					display: "flex",
+					flexDirection: "row",
+					justifyContent: "flex-start",
+				}}
+			>
+				<NavBar></NavBar>
+      </div>
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-        //Adding the switch button
-        <Switch checked={darkMode} onChange={toggleSwitchFunction} />
-        <NavBar></NavBar>
-        <Header>TEST</Header>
-        <Skills></Skills>
-        <WorkHistory></WorkHistory>
-        <Projects></Projects>
-        <Education></Education>
+			<Header>TEST</Header>
+			<Skills></Skills>
+			<WorkHistory></WorkHistory>
+			<Projects></Projects>
+			<Education></Education>
         <Contact></Contact>
       </div>
-    </ThemeProvider>
-  );
+		</ThemeProvider>
+	);
 }
