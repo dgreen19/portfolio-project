@@ -4,7 +4,9 @@ export default function Education() {
   return (
     <div>
       Education
-      <div>TEST</div>
+      <ul>
+        Wayne State University - Bachelor of Arts in Computer Science - 2020
+      </ul>
     </div>
   )
 }
