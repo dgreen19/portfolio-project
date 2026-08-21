@@ -8,6 +8,7 @@ export default function Skills() {
         <li>JavaScript</li>
         <li>TypeScript</li> 
         <li>Python</li>
+        <li>HTML/CSS</li>
         <li>Java</li>
       </ul>
       <h3>Frameworks</h3>
