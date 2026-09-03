@@ -28,7 +28,6 @@ export default function App() {
   return (
 		<ThemeProvider theme={darkTheme}>
 			<CssBaseline />
-			//Adding the switch button
 			<div
 				style={{
 					display: "flex",

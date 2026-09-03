@@ -15,8 +15,23 @@ export default function Skills() {
       <ul>
         <li>React.js</li>
         <li>Next.js</li>
+        <li>Jest</li>
+        <li>Playwright</li>
         <li>Vue.js</li>
         <li>Node.js</li>
+      </ul>
+      <h3>Databases</h3>
+      <ul>
+        <li>MySQL</li>
+        <li>PostgreSQL</li>
+      </ul>
+      <h3>Other Tools</h3>
+      <ul>
+        <li>Amazon Web Services (AWS)</li>
+        <li>Github Copilot</li>
+        <li>Claude Code</li>
+        <li>Jenkins CI/CD</li>
+        <li>Postman</li>
       </ul>
     </div>
   )
