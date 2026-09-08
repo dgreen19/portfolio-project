@@ -1,15 +1,17 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
+import waPostLogo from "../assets/WaPo_logo.svg";
 
 export default function WorkHistory() {
 	return (
-		<>
+		<>~
 			<Carousel>
 				<Carousel.Item>
 					<div className="d-block w-100 p-4">
 						<h3>Software Engineer II</h3>
 						<h4>The Washington Post</h4>
 						<p>Nov 2022 - Present</p>
+						<img className="d-block w-100" src={waPostLogo} alt="The Washington Post Logo" />
 						<p>
 							Since joining The Washington Post, I've worked at the intersection
 							of engineering and data privacy building the infrastructure that
@@ -34,7 +36,7 @@ export default function WorkHistory() {
 							development to manage refactoring efficiently across 15+
 							repositories. In a related effort, I rebuilt the site's cookie
 							consent management interface to proactively close gaps against a
-							patchwork of regulations — not just GDPR, but state-level laws
+							pa~tchwork of regulations — not just GDPR, but state-level laws
 							like California's CCPA and Virginia's CDPA.
 						</p>
 						<p>
